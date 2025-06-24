@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    width: 360px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    color: #004080;
+    margin: 0;
+}
+
+.profile-icon {
+    font-size: 24px;
+    color: #004080;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tile img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.red { background: #f44336; }
+.green { background: #4caf50; }
+.yellow { background: #ffeb3b; color: black; }
+.blue { background: #2196f3; }
+.purple { background: #9c27b0; grid-column: span 2; }
+
+.back-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.back-button a {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
